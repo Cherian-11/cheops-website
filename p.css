@@ -1,0 +1,37 @@
+ #a1
+ {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 175%;
+    color: white;
+    margin-left: 670px;margin-top: 75px;
+ }
+#f1{margin-left: 40px; margin-top: -200px;}
+.box #f1
+{
+    border-radius: 25px;
+    position: relative;
+    max-width: 250;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+#w1{
+    color: white;
+    font-size:18px ;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.rotate {
+    animation: rotation 4s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.img {
+    position: centre;
+}
